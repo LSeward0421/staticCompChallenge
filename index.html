@@ -5,39 +5,273 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>2Win!</title>
     <link rel="stylesheet" href="./styles.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Merriweather&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@200;300&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
   </head>
   <body>
     <nav>
-      <ul>
-        <li>
-          <img src="src file here" alt="share-icon">
+      <div class="left-side-nav">
+        <div class="nav-link">
+          <i class="fa-solid fa-share-nodes"></i>
           <a href="#">Shares</a>
-        </li>
-        <li>
-          <img src="src file here" alt="playlist-icon">
-          <a href="#">Playlist</a>
-        </li>
-        <li>
-          <img src="src file here" alt="videos-icon">
-          <a href="#">Personal Videos</a>
-        </li>
-      </ul>
-      <div class="right-side-nav">
-        <div class="user-login">
-          <img src="src file here" alt="user-icon">
-          <select class="admin-username">
-            <option selected>Admin Username</option>
-            <img src="images/blue_arrow.png" alt="blue triangle" id="triangle">
-          </select>
         </div>
-        <div class="site-logo">
-          <img src="src/2win! logo.png" alt="2Win! logo">
+        <div class="nav-link">
+          <i class="fa-solid fa-list-ul"></i>
+          <a href="#">Playlist</a>
+        </div>
+        <div class="nav-link">
+          <i class="fa-regular fa-user"></i>
+          <a href="#">Personal Videos</a>
         </div>
       </div>
+      <div class="right-side-nav">
+        <div class="user-login">
+          <i class="fa-regular fa-circle-user"></i>
+          <span>Admin Username</span>
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <div class="site-logo">
+          <img src="src/2win! logo.png" alt="2Win! logo" />
+        </div>
+      </div>
+    </nav>
+    <main>
+      <h2>Shares</h2>
+      <section class="cards-container">
+        <article class="card">
+          <div class="card-top" id="card-top1">
+            <button>
+              <i class="fa-solid fa-share"></i>
+            </button>
+            <div class="views">
+              <h3>VIEWS</h3>
+              <h2>02</h2>
+            </div>
+          </div>
+          <div class="card-bottom">
+            <div class="name-date">
+              <h4>Recipient's Namehere</h4>
+              <p>Monday 01/23/16 10:22am</p>
+            </div>
+            <div class="card-link">
+              <p>http://2win.2winstage.com/p/recipients_namehere</p>
+            </div>
+            <div class="playlist">
+              <p id="playlistTop">PLAYLIST</p>
+              <p id="playlistBtm">Name of Playlist</p>
+            </div>
+            <div class="attachments">
+              <p id="attachmentTitle">ATTACHMENTS</p>
+              <p id="numAttachments">04</p>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-top" id="card-top2">
+            <button>
+              <i class="fa-solid fa-share"></i>
+            </button>
+            <div class="views">
+              <h3>VIEWS</h3>
+              <h2>02</h2>
+            </div>
+          </div>
+          <div class="card-bottom">
+            <div class="name-date">
+              <h4>Recipient's Namehere</h4>
+              <p>Monday 01/23/16 10:22am</p>
+            </div>
+            <div class="card-link">
+              <p>http://2win.2winstage.com/p/recipients_namehere</p>
+            </div>
+            <div class="playlist">
+              <p id="playlistTop">PLAYLISTS</p>
+              <p id="playlistBtm">Name of Playlist</p>
+            </div>
+            <div class="attachments">
+              <p id="attachmentTitle">ATTACHMENTS</p>
+              <p id="numAttachments">04</p>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-top" id="card-top3">
+            <button>
+              <i class="fa-solid fa-share"></i>
+            </button>
+            <div class="views">
+              <h3>VIEWS</h3>
+              <h2>02</h2>
+            </div>
+          </div>
+          <div class="card-bottom">
+            <div class="name-date">
+              <h4>Recipient's Namehere</h4>
+              <p>Monday 01/23/16 10:22am</p>
+            </div>
+            <div class="card-link">
+              <p>http://2win.2winstage.com/p/recipients_namehere</p>
+            </div>
+            <div class="playlist">
+              <p id="playlistTop">PLAYLIST</p>
+              <p id="playlistBtm">Name of Playlist</p>
+            </div>
+            <div class="attachments">
+              <p id="attachmentTitle">ATTACHMENTS</p>
+              <p id="numAttachments">04</p>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-top" id="card-top4">
+            <button>
+              <i class="fa-solid fa-share"></i>
+            </button>
+            <div class="views">
+              <h3>VIEWS</h3>
+              <h2>02</h2>
+            </div>
+          </div>
+          <div class="card-bottom">
+            <div class="name-date">
+              <h4>Recipient's Namehere</h4>
+              <p>Monday 01/23/16 10:22am</p>
+            </div>
+            <div class="card-link">
+              <p>http://2win.2winstage.com/p/recipients_namehere</p>
+            </div>
+            <div class="playlist">
+              <p id="playlistTop">PLAYLIST</p>
+              <p id="playlistBtm">Name of Playlist</p>
+            </div>
+            <div class="attachments">
+              <p id="attachmentTitle">ATTACHMENTS</p>
+              <p id="numAttachments">04</p>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-top" id="card-top5">
+            <button>
+              <i class="fa-solid fa-share"></i>
+            </button>
+            <div class="views">
+              <h3>VIEWS</h3>
+              <h2>02</h2>
+            </div>
+          </div>
+          <div class="card-bottom">
+            <div class="name-date">
+              <h4>Recipient's Namehere</h4>
+              <p>Monday 01/23/16 10:22am</p>
+            </div>
+            <div class="card-link">
+              <p>http://2win.2winstage.com/p/recipients_namehere</p>
+            </div>
+            <div class="playlist">
+              <p id="playlistTop">PLAYLIST</p>
+              <p id="playlistBtm">Name of Playlist</p>
+            </div>
+            <div class="attachments">
+              <p id="attachmentTitle">ATTACHMENTS</p>
+              <p id="numAttachments">04</p>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-top" id="card-top6">
+            <button>
+              <i class="fa-solid fa-share"></i>
+            </button>
+            <div class="views">
+              <h3>VIEWS</h3>
+              <h2>02</h2>
+            </div>
+          </div>
+          <div class="card-bottom">
+            <div class="name-date">
+              <h4>Recipient's Namehere</h4>
+              <p>Monday 01/23/16 10:22am</p>
+            </div>
+            <div class="card-link">
+              <p>http://2win.2winstage.com/p/recipients_namehere</p>
+            </div>
+            <div class="playlist">
+              <p id="playlistTop">PLAYLIST</p>
+              <p id="playlistBtm">Name of Playlist</p>
+            </div>
+            <div class="attachments">
+              <p id="attachmentTitle">ATTACHMENTS</p>
+              <p id="numAttachments">04</p>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-top" id="card-top7">
+            <button>
+              <i class="fa-solid fa-share"></i>
+            </button>
+            <div class="views">
+              <h3>VIEWS</h3>
+              <h2>02</h2>
+            </div>
+          </div>
+          <div class="card-bottom">
+            <div class="name-date">
+              <h4>Recipient's Namehere</h4>
+              <p>Monday 01/23/16 10:22am</p>
+            </div>
+            <div class="card-link">
+              <p>http://2win.2winstage.com/p/recipients_namehere</p>
+            </div>
+            <div class="playlist">
+              <p id="playlistTop">PLAYLIST</p>
+              <p id="playlistBtm">Name of Playlist</p>
+            </div>
+            <div class="attachments">
+              <p id="attachmentTitle">ATTACHMENTS</p>
+              <p id="numAttachments">04</p>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-top" id="card-top8">
+            <button>
+              <i class="fa-solid fa-share"></i>
+            </button>
+            <div class="views">
+              <h3>VIEWS</h3>
+              <h2>02</h2>
+            </div>
+          </div>
+          <div class="card-bottom">
+            <div class="name-date">
+              <h4>Recipient's Namehere</h4>
+              <p>Monday 01/23/16 10:22am</p>
+            </div>
+            <div class="card-link">
+              <p>http://2win.2winstage.com/p/recipients_namehere</p>
+            </div>
+            <div class="playlist">
+              <p id="playlistTop">PLAYLIST</p>
+              <p id="playlistBtm">Name of Playlist</p>
+            </div>
+            <div class="attachments">
+              <p id="attachmentTitle">ATTACHMENTS</p>
+              <p id="numAttachments">04</p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
   </body>
 </html>
